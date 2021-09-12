@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 admins = {}
-ADMIN = int(os.getena('ADMIN',1891849217))
-CHANNEL = os.getena('CHANNEL','')
+ADMIN = int(os.getenv('ADMIN',1891849217))
+CHANNEL = os.getenv('CHANNEL','')
 API_ID = int(os.getenv("API_ID", "6"))
 API_HASH = os.getenv("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
 BOT_USERNAME = os.getenv("BOT_USERNAME", "VcVideoRobot")
