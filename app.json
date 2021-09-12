@@ -19,6 +19,14 @@
             "description": "Your API_HASH from my.telegram.org",
             "required": true
         },
+        "ADMIN": {
+            "description": "Your User Id",
+            "required": true
+        },
+        "CHANNEL": {
+            "description": "Your Channel User Name With @ Note(add @)",
+            "required": true
+        },
         "ASSISTANT_NAME": {
             "description": "Put Your Assistant Username without @",
             "required": true
